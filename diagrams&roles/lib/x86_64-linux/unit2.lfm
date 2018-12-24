@@ -1,7 +1,7 @@
 object LoginForm: TLoginForm
-  Left = 704
+  Left = 409
   Height = 240
-  Top = 104
+  Top = 292
   Width = 320
   Caption = 'LoginForm'
   ClientHeight = 240

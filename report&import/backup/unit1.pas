@@ -177,9 +177,9 @@ begin
            (MyWorksheet.ReadAsText(row, 3) = '') then
            continue;
         self.DataSourceBooks.DataSet.Insert();
-        self.DataSourceBooks.DataSet.Fields[1].AsString := MyWorksheet.ReadAsNumber(row, 1); // name
+        self.DataSourceBooks.DataSet.Fields[1].AsString := MyWorksheet.ReadAsText(row, 1); // name
         self.DataSourceBooks.DataSet.Fields[2].AsString := MyWorksheet.ReadAsText(row, 2); // author
-        self.DataSourceBooks.DataSet.Fields[3].AsString := MyWorksheet.ReadAsNumber(row, 3); // genre
+        self.DataSourceBooks.DataSet.Fields[3].AsString := MyWorksheet.ReadAsText(row, 3); // genre
       end;
 
     end;

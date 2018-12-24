@@ -61,9 +61,9 @@ end;
 
 procedure TLoginForm.BitBtnOKClick(Sender: TObject);
 begin
-      //MainForm.PQConnection1.UserName := EditLogin.Text;
-      //MainForm.PQConnection1.Password := EditPassword.Text;
-      //MainForm.Show();
+      MainForm.PQConnection1.UserName := EditLogin.Text;
+      MainForm.PQConnection1.Password := EditPassword.Text;
+      MainForm.Show();
       Hide();
 end;
 

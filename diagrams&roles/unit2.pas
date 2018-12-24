@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  Unit3,
+  Unit3,   Unit4,
   LCLProc, LazHelpHTML, Buttons, StdCtrls, ExtCtrls, UTF8Process
   ;
 
