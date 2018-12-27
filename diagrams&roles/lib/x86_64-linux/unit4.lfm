@@ -1,7 +1,7 @@
 object MainForm: TMainForm
-  Left = 409
+  Left = 529
   Height = 560
-  Top = 151
+  Top = 184
   Width = 488
   Caption = 'MainForm'
   ClientHeight = 560
@@ -263,7 +263,6 @@ object MainForm: TMainForm
   end
   object frDBDataSet1: TfrDBDataSet
     DataSet = SQLQueryBooks
-    DataSource = DataSourceBooks
     left = 333
     top = 468
   end

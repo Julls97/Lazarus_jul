@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 391
+  Left = 370
   Height = 551
-  Top = 161
+  Top = 155
   Width = 696
   Caption = 'Form1'
   ClientHeight = 524
@@ -209,12 +209,12 @@ object Form1: TForm1
     IndexName = 'DEFAULT_ORDER'
     FieldDefs = <    
       item
-        Name = 'book_name'
+        Name = 'book_id'
         DataType = ftInteger
         Precision = -1
       end    
       item
-        Name = 'visitor_name'
+        Name = 'visitor_id'
         DataType = ftInteger
         Precision = -1
       end    

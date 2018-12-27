@@ -40,10 +40,10 @@ begin
     InitLang();
   RequireDerivedFormResource:=True;
   Application.Initialize;
- // Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TLoginForm, LoginForm);
-  Application.CreateForm(TSettingsForm, SettingsForm);
-  Application.CreateForm(TMainForm, MainForm);
+// Application.CreateForm(TForm1, Form1);
+ Application.CreateForm(TLoginForm, LoginForm);
+Application.CreateForm(TSettingsForm, SettingsForm);
+Application.CreateForm(TMainForm, MainForm);
   Application.Run;
 end.
 

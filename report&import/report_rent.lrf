@@ -7,7 +7,7 @@
     <KeyWords Value=""/>
     <Comments Value=""/>
     <ReportCreateDate Value="1899-12-30 00:00:00"/>
-    <ReportLastChange Value="2018-12-24 00:04:18"/>
+    <ReportLastChange Value="2018-12-24 15:21:47"/>
     <ReportVersionBuild Value=""/>
     <ReportVersionMajor Value=""/>
     <ReportVersionMinor Value=""/>
@@ -119,7 +119,7 @@
           <Data>
             <Format Value="556"/>
             <FormatStr Value=""/>
-            <Memo Value="[SQLQueryRent.&quot;visitor_name&quot;]&#xA;"/>
+            <Memo Value="[SQLQueryRent.&quot;visitor_id&quot;]&#xA;"/>
             <Script Value=""/>
             <GapX Value="0"/>
             <GapY Value="0"/>
@@ -175,7 +175,7 @@
           <Data>
             <Format Value="556"/>
             <FormatStr Value=""/>
-            <Memo Value="[SQLQueryRent.&quot;book_name&quot;]&#xA;"/>
+            <Memo Value="[SQLQueryRent.&quot;book_id&quot;]&#xA;"/>
             <Script Value=""/>
             <GapX Value="0"/>
             <GapY Value="0"/>
@@ -271,9 +271,9 @@
           <StreamMode Value="0"/>
           <Size>
             <Left Value="20"/>
-            <Top Value="32"/>
-            <Width Value="96"/>
-            <Height Value="18"/>
+            <Top Value="24"/>
+            <Width Value="160"/>
+            <Height Value="78"/>
           </Size>
           <Flags Value="3"/>
           <FillColor Value="clNone"/>
@@ -287,7 +287,7 @@
           <Data>
             <Format Value="556"/>
             <FormatStr Value=""/>
-            <Memo Value="Кому&#xA;"/>
+            <Memo Value="Идентификатор посетителя&#xA;"/>
             <Script Value=""/>
             <GapX Value="0"/>
             <GapY Value="0"/>
@@ -326,10 +326,10 @@
           <Typ Value="gtMemo"/>
           <StreamMode Value="0"/>
           <Size>
-            <Left Value="172"/>
-            <Top Value="32"/>
-            <Width Value="144"/>
-            <Height Value="20"/>
+            <Left Value="188"/>
+            <Top Value="20"/>
+            <Width Value="164"/>
+            <Height Value="40"/>
           </Size>
           <Flags Value="3"/>
           <FillColor Value="clNone"/>
@@ -343,7 +343,7 @@
           <Data>
             <Format Value="556"/>
             <FormatStr Value=""/>
-            <Memo Value="Название книги&#xA;"/>
+            <Memo Value="Идентификатор книги&#xA;"/>
             <Script Value=""/>
             <GapX Value="0"/>
             <GapY Value="0"/>

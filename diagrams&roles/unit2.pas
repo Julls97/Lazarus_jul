@@ -29,6 +29,8 @@ type
     procedure BitBtnSettingsClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure ImageBGClick(Sender: TObject);
+    procedure LoginClick(Sender: TObject);
   private
     procedure RefreshSettings();
 
@@ -47,6 +49,16 @@ implementation
  procedure TLoginForm.FormShow(Sender: TObject);
 begin
   RefreshSettings();
+end;
+
+procedure TLoginForm.ImageBGClick(Sender: TObject);
+begin
+
+end;
+
+procedure TLoginForm.LoginClick(Sender: TObject);
+begin
+
 end;
 
 procedure TLoginForm.RefreshSettings();
